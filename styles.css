@@ -94,8 +94,8 @@ header {
 }
 #resume-img {
     width: 100%;
-    filter: blur(4px);
-  -webkit-filter: blur(4px);
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
 }
 #resume-msg h4 {
     color: black;
@@ -164,6 +164,7 @@ header {
 
 #hero-box img {
     width: 80%;
+    margin-left: 10%;
     border-radius: 5%;
 }
 
