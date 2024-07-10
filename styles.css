@@ -25,8 +25,9 @@ nav a {
     padding: 35px;
 }
 nav a:hover {
-    background-color: #a5720d;
+    background-color: rgb(50, 49, 48);
     color: white;
+    opacity: 0.8;
 }
 .logo {
     width: 80px;
