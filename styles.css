@@ -49,8 +49,8 @@ header {
     
 }
 .resume-look {
-    background-color: hsl(11deg 43.74% 31.96%);
-    color: black;
+    background-color: rgb(50, 49, 48);
+    color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -59,9 +59,10 @@ header {
     
 }
 .resume-look:hover {
-    background-color: #0e0732;
-    color:  #a5720d;
     opacity: 0.5;
+    background-color: rgb(50, 49, 48);
+    color:  white
+    
 }
 .resume-title {
     
@@ -136,8 +137,8 @@ header {
 
 }
 .learn {
-    background-color: #935004;
-    color: black;
+    background-color: rgb(50, 49, 48);
+    color: white;
     text-decoration: none;
     font-size: 20px;
     padding: 15px 30px;
@@ -146,9 +147,9 @@ header {
     
 }
 .learn:hover {
-    background-color: #442e10;
-    color:  #a5720d;
     opacity: 0.5;
+    background-color: rgb(50, 49, 48);
+    color:  white
     
 }
 .learn:link {
