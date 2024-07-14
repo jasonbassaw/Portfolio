@@ -193,9 +193,234 @@ footer p {
 }
 
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer a:hover {
     color: blanchedalmond;
 }
+.about-home-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+.grid-grid {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-top: 100px;
+    padding-bottom: 40%;
+    padding-left: 30%;
+    
+}
+
+.grid-grid p {
+    color: hsl(0, 0%, 0%);
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    padding-top: 20%;
+    padding-right: 49%;
+    padding-bottom: 80%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+ .slides {
+    position: relative;
+    height: 900px; /* Adjust based on your image height*/
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide:target {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 30%;
+
+}
+
+.text {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px 0;
+}
+
+.navigation {
+    text-align: center;
+    padding: 10px;
+    padding-top: 32%;
+}
+
+.navigation a {
+    text-decoration: none;
+    background-color: #bbb;
+    padding: 8px 16px;
+    margin: 0 5px;
+    color: #000;
+}
+
+.navigation a:hover {
+    background-color: #717171;
+} 
+.about-book {
+    background-color: rgb(50, 49, 48);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.about-book:hover {
+    opacity: 0.5;
+    background-color: rgb(50, 49, 48);
+    color:  white
+    
+}
+
+/*@media (max-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+
+    nav a {
+        padding: 25px;
+    }
+
+    .resume-look,
+    .learn {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .resume-title,
+    .messageaboutme h2,
+    .messageaboutme p {
+        font-size: 1.5em;
+    }
+
+    #resume {
+        grid-template-columns: 1fr;
+    }
+
+    #resume-msg {
+        padding-left: 10%;
+    }
+
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .messageaboutme {
+        width: 100%;
+        padding-bottom: 30%;
+    }
+
+    #hero-box img {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 15px;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+    }
+
+    .resume-look,
+    .learn {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+
+    .resume-title,
+    .messageaboutme h2,
+    .messageaboutme p {
+        font-size: 1.2em;
+    }
+
+    #resume-msg {
+        padding-left: 5%;
+    }
+
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .messageaboutme {
+        padding-bottom: 20%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    .resume-look,
+    .learn {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .resume-title,
+    .messageaboutme h2,
+    .messageaboutme p {
+        font-size: 1em;
+    }
+
+    .messageaboutme {
+        padding-bottom: 10%;
+    }
+}*/
