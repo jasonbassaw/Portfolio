@@ -17,8 +17,7 @@ body {
     padding: 0;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
-    /*background-color:#cab19b*/
-    background: linear-gradient(141deg, hsl(39deg 26.21% 46.8%) 0%, #a4805e, #2e2822);
+    background-color: black;
 }
 nav {
     display: flex;
@@ -200,7 +199,7 @@ footer a:hover {
 	-webkit-transition: .10s ease-in;
 	transition: .10s ease-in;
     filter: blur(3px);
-    -webkit-filter: blur(3px);
+    -webkit-filter: blur(1.5px);
     
 }
 .volunteer img:hover {
