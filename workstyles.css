@@ -115,7 +115,7 @@ footer a:hover {
 	-webkit-transition: .10s ease-in;
 	transition: .10s ease-in;
     filter: blur(3px);
-    -webkit-filter: blur(3px);
+    -webkit-filter: blur(0x);
     
     
 }
@@ -161,7 +161,7 @@ footer a:hover {
 	-webkit-transition: .10s ease-in;
 	transition: .10s ease-in;
     filter: blur(3px);
-    -webkit-filter: blur(1.5px);
+    -webkit-filter: blur(0px);
     
 } 
 .mtc img:hover {
@@ -199,7 +199,7 @@ footer a:hover {
 	-webkit-transition: .10s ease-in;
 	transition: .10s ease-in;
     filter: blur(3px);
-    -webkit-filter: blur(1.5px);
+    -webkit-filter: blur(0px);
     
 }
 .volunteer img:hover {
@@ -221,5 +221,5 @@ footer a:hover {
     -ms-transform: scale(1);
     transform: scale(1.1);
     
-  }
+}
   
